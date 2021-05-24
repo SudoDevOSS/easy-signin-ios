@@ -10,7 +10,6 @@ The goal of this project is apply the clean architecture on a module and include
     - Login
     - Register
     - Reset Password
-    - Refresh Token
 - Account
     - Fetch Account Info
     - Update Account Info
