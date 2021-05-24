@@ -28,6 +28,9 @@ The goal of this project is apply the clean architecture on a module and include
 - Swift 5+
 - macOS 11+
 
+### Documentation
+Documentation is published on Github pages and can be found [here](https://sudodevoss.github.io/easy-signin-docs/#/)
+
 ### Usage
 - Add source to your project
 - Initialize the library in AppDelegate: 
