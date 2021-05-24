@@ -28,7 +28,7 @@ public class User: Entity, Codable {
         super.init(id: id)
     }
 
-    func changeName(firstName: String? = nil, lastName: String? = nil){
+    public func changeName(firstName: String? = nil, lastName: String? = nil){
         if let f = firstName, !f.isEmpty {
             self.firstName = f
         }
@@ -37,7 +37,7 @@ public class User: Entity, Codable {
         }
     }
 
-    func changePhoneNumber(_ newNumber: String){
+    public func changePhoneNumber(_ newNumber: String){
         guard !newNumber.isEmpty else {
             return
         }
@@ -45,7 +45,7 @@ public class User: Entity, Codable {
         self.phoneNumber = newNumber
     }
 
-    func changeEmail(_ newEmail: String){
+    public func changeEmail(_ newEmail: String){
         guard newEmail.isValidEmail() else {
             return
         }
