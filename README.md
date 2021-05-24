@@ -25,7 +25,7 @@ The goal of this project is apply the clean architecture on a module and include
 ### Requirements
 
 - XCode 12+
-- Siwft 5+
+- Swift 5+
 - macOS 11+
 
 ### Usage
